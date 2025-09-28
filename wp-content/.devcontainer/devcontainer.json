@@ -1,0 +1,9 @@
+{
+  "name": "WordPress Codespace",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "workspace",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [8080],
+  "shutdownAction": "stopCompose",
+  "remoteUser": "vscode"
+}
